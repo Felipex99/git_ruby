@@ -1,13 +1,3 @@
-# time_stamp = Time.now.strftime("%d/%m/%Y %H:%M:%S")
-# if File.exist?("jogos.txt")
-#     arquivo = File.write("jogos.txt","DATA: #{time_stamp}\n--------------------------")
-
-# else
-#     arquivo = File.write("jogos.txt","DATA: #{time_stamp}\n")
-#     puts "Arquivo inexistente"
-# end
-
-
 class Jogo
     attr_accessor :numbers
 
